@@ -27,112 +27,65 @@
 
 ---
 
-## Assignment 1
+## Assignment 2
 
-Cairo University  
-Faculty of Computers and Artificial Intelligence  
-Machine Learning Course  
+### Dataset Description
 
-### Assignment 1: Linear and Logistic Regression
+Whenever you go to the bank to deposit some cash money, the cashier places banknotes in a machine that tells whether a banknote is real or not. In the "BankNote_Authentication.csv" you have four features: variance, skew, curtosis, and entropy. The class attribute refers to whether or not the banknote is real or forged.
 
-A housing finance company offers interest-free home loans to customers. When a customer applies for a home loan, the company validates the customer's eligibility for a loan before making a decision.
+### Problem 1: Decision Trees using Scikit-learn
 
-Now, the company wants to automate the customers' eligibility validation process based on the customers' details provided while filling the application form. These details include gender, education, income, credit history, and others. The company also wants to have a predictive model for the maximum loan amount that an applicant is authorized to borrow based on his details.
+Use the Banknote Authentication data attached with the assignment to implement the following requirements:
 
-You are required to build a linear regression model and a logistic regression model for this company to predict loan decisions and amounts based on some features.
+1. Experiment with a fixed train_test split ratio: Use 25% of the samples for training and the rest for testing.
+   a. Run this experiment five times and notice the impact of different random splits of the data into training and test sets.
+   b. Print the sizes and accuracies of these trees in each experiment.
 
-### Datasets
+2. Experiment with a different range of train_test split ratios: Try (30%-70%), (40%-60%), (50%-50%), (60%-40%), and (70%-30%):
+   a. Run the experiment with five different random seeds for each split ratio.
+   b. Calculate mean, maximum, and minimum accuracy for each split ratio and print them.
+   c. Print the mean, max, and min tree size for each split ratio.
+   d. Draw two plots: 1) shows mean accuracy against training set size and 2) the mean number of nodes in the final tree against training set size.
 
-There are two attached datasets:
+Note: The size of the tree is the number of its nodes.
 
-- **loan_old.csv**: Contains 614 records of applicants' data with 10 feature columns in addition to 2 target columns. The features are:
-  - Loan application ID
-  - Applicant's gender
-  - Marital status
-  - Number of dependents
-  - Education and income
-  - Co-applicant's income
-  - Number of months until the loan is due
-  - Applicant's credit history check
-  - Property area
+### Problem 2: KNN
 
-  The targets are:
-  - Maximum loan amount (in thousands)
-  - Loan acceptance status
+Use the Banknote Authentication data to implement your own simple KNN classifier using Python (don’t use any built-in functions):
 
-- **loan_new.csv**: Contains 367 records of new applicants' data with the 10 feature columns.
+1. Divide your data into 70% for training and 30% for testing.
+2. Each feature column should be normalized separately from all other features. Specifically, for both training and test objects, each feature should be transformed using the function: f(v) = (v - mean) / std, using the mean and standard deviation of the values of that feature column on the training data.
+3. If there is a tie in the class predicted by the k-nn, then among the classes that have the same number of votes, you should pick the one that comes first in the Train file.
+4. Use Euclidean distance to compute distances between instances.
+5. Experiment with different values of k=1,2,3, …, 9 and print the following:
+   - The value of k used for the test set.
+   - The number of correctly classified test instances.
+   - The total number of instances in the test set.
+   - The accuracy.
 
-Note: These datasets are modified versions of the "Loan Eligibility Dataset". The original datasets were obtained from Kaggle.
+### Submission Rules
 
-### Requirements
-
-Write a Python program in which you do the following:
-
-a) Load the "loan_old.csv" dataset.
-
-b) Perform analysis on the dataset to:
-   1. Check whether there are missing values
-   2. Check the type of each feature (categorical or numerical)
-   3. Check whether numerical features have the same scale
-   4. Visualize a pairplot between numerical columns
-
-c) Preprocess the data such that:
-   1. Records containing missing values are removed
-   2. The features and targets are separated
-   3. The data is shuffled and split into training and testing sets
-   4. Categorical features are encoded
-   5. Categorical targets are encoded
-   6. Numerical features are standardized
-
-d) Fit a linear regression model to the data to predict the loan amount.
-   - Use sklearn's linear regression.
-
-e) Evaluate the linear regression model using sklearn's R2 score.
-
-f) Fit a logistic regression model to the data to predict the loan status.
-   - Implement logistic regression from scratch using gradient descent.
-
-g) Write a function (from scratch) to calculate the accuracy of the model.
-
-h) Load the "loan_new.csv" dataset.
-
-i) Perform the same preprocessing on it (except shuffling and splitting).
-
-j) Use your models on this data to predict the loan amounts and status.
-
-### Remarks
-
-- You can use functions from data analysis and computing libraries (e.g., Pandas and NumPy) as you please throughout the entire code.
-- You can use machine learning libraries such as Scikit-learn for preprocessing and metrics but NOT for "from scratch" requirements.
-- The train/test split has to be performed before the encoding and standardization steps.
-- The categorical features of the test set (and of the new data) should be transformed (encoded) using the encoder fitted on the train set.
-- The numerical features of the test set (and of the new data) should be standardized using the mean and standard deviation of the train set.
-- We will use R2 score to evaluate the linear regression model as it provides a measure of how well observed outcomes are replicated by the model (based on the proportion of total variation of outcomes explained by the model). The best possible score is 1, but the score can be negative as the model can be arbitrarily worse.
-
-### Deliverables
-
-You are required to submit ONE zip file containing the following:
-- Your code (.py) file. If you have a (.ipynb) file, you have to save/download it as (.py) before submitting.
-- A report (.pdf) containing the team members' names and IDs, and the code with screenshots of the output of each part. If you have a (.ipynb) file, you can just convert it to pdf.
-
-The zip file must follow this naming convention: ID1_ID2_ID3_ID4_ID5_Group
-
-### Submission Remarks
-
-- The maximum number of students in a team is 5 and the minimum is 4.
-- Team members must be from the same lab (or have the same TA).
-- No late submission is allowed.
-- A penalty will be imposed for violating any of the assignment rules.
-- Cheaters will get ZERO and no excuses will be accepted.
+1. Deadline: 07 May 2023 @11:59 PM
+2. No late submission is allowed.
+3. Deliver your code as “.py” files not notebook extensions.
+4. Name your zipped folder that contains [problem1.py and problem2.py] as follows: ID1_ID2_ID3_ID4_ID5.zip. You will lose 0.5 mark from the assignment grade if you did not follow the correct naming convention.
+5. Team members are Max: 5.
+6. Team members can be from different labs (but they must all attend the discussion together). If anyone did not attend the discussion, they will receive zero in the assignment. You should understand every point in your code.
+7. ONLY one member should upload the zipped folder to avoid multiple submissions for the same team.
+8. We will run a plagiarism tool to check for any cheating. Cheaters will receive zero in the assignment and no excuses will be accepted.
 
 ### Grading Criteria
 
-Both the code and the report must include:
-- Analysis: 2 marks
-- Preprocessing: 6 marks
-- Linear regression and R2 score: 2 marks
-- Logistic regression (gradient descent): 6 marks
-- Accuracy: 2 marks
-- New predictions: 2 marks
+#### Problem 1 [DT]
 
-The total is 20 marks (will be scaled to 5 marks).
+- Experiment with Fixed Training Set size: 2 marks
+- Experiment with a range of train_test split ratio: 4 marks
+- Plotting: 2 marks
+
+#### Problem 2 [KNN]
+
+- KNN algorithm (+ handling tie case): 4 marks
+- Normalization + Euclidean distance calculation: 4 marks
+- Experiment with different k values and print summary info as required: 2 marks
+
+Total: 18 marks (will be scaled to 6 marks)
