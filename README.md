@@ -1,8 +1,5 @@
 # SCS492-Selected-Topics-in-Software-Engineering-2
 
-![image](https://github.com/user-attachments/assets/e106d083-19da-4296-96e5-da13c6187a7b)
----
-
 <div align="center">
   <table width="100%">
     <tr>
@@ -24,6 +21,10 @@
     </tr>
   </table>
 </div>
+
+---
+
+![image](https://github.com/user-attachments/assets/e106d083-19da-4296-96e5-da13c6187a7b)
 
 ---
 
