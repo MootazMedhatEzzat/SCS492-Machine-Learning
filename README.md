@@ -3,9 +3,11 @@
 ---
 
 <div align="center">
-  <table width="100%">
+  <table width="80%" border="1" cellspacing="0" cellpadding="5">
     <tr>
-      <td colspan="2" align="center"><strong>{ Assignment 1: Linear and Logistic Regression }</strong></td>
+      <td colspan="2" align="center" style="font-size: 1.5em; font-weight: bold;">
+        Assignment 1: Linear and Logistic Regression
+      </td>
     </tr>
     <tr>
       <td align="left"><strong>Name</strong>: Mootaz Medhat Ezzat Abdelwahab</td>
@@ -16,10 +18,10 @@
       <td align="right"><strong>Group</strong>: B (S5)</td>
     </tr>
     <tr>
-      <td align="center"><strong>Delivered To</strong>: DR. Hanaa Mobarez</td>
+      <td align="center" colspan="2"><strong>Delivered To</strong>: DR. Hanaa Mobarez</td>
     </tr>
     <tr>
-      <td align="center"><strong>Delivered To</strong>: TA. Abdalrahman Roshdi</td>
+      <td align="center" colspan="2"><strong>Delivered To</strong>: TA. Abdalrahman Roshdi</td>
     </tr>
   </table>
 </div>
