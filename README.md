@@ -3,7 +3,7 @@
 <div align="center">
   <table width="100%">
     <tr>
-      <td colspan="2" align="center"><strong>{ Assignment 1: Linear and Logistic Regression }</strong></td>
+      <td colspan="2" align="center"><strong>{ Final Project: SVM - Neural Networks  - Convolutional Neural Networks }</strong></td>
     </tr>
     <tr>
       <td align="left"><strong>Name</strong>: Mootaz Medhat Ezzat Abdelwahab</td>
@@ -21,17 +21,11 @@
 
 ---
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/e106d083-19da-4296-96e5-da13c6187a7b" alt="image">
-</div>
-
----
-
-## Assignment 1
+## Final Project
 
 Cairo University  
 Faculty of Computers and Artificial Intelligence  
-Machine Learning Course  
+Machine Learning Course   
 
 # Machine Learning (Spring 2024)
 
