@@ -14,10 +14,7 @@
       <td align="right"><strong>Group</strong>: B (S5)</td>
     </tr>
     <tr>
-      <td align="center" colspan="2"><strong>Delivered To</strong>: DR. Hanaa Mobarez</td>
-    </tr>
-    <tr>
-      <td align="center" colspan="2"><strong>Delivered To</strong>: TA. Abdalrahman Roshdi</td>
+      <td align="center" colspan="2"><strong>Delivered To:</strong><br>DR. Hanaa Mobarez<br>TA. Abdalrahman Roshdi</td>
     </tr>
   </table>
 </div>
