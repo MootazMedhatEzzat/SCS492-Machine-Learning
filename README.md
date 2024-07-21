@@ -3,7 +3,7 @@
 ---
 
 <div align="center">
-  <table width="80%" border="1" cellspacing="0" cellpadding="5">
+  <table width="100%">
     <tr>
       <td colspan="2" align="center" style="font-size: 1.5em; font-weight: bold;">
         Assignment 1: Linear and Logistic Regression
