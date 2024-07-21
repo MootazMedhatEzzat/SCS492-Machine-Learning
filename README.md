@@ -21,12 +21,6 @@
 
 ---
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/e106d083-19da-4296-96e5-da13c6187a7b" alt="image">
-</div>
-
----
-
 ## Assignment 2
 
 ### Dataset Description
