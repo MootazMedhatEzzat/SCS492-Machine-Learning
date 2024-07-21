@@ -25,9 +25,7 @@
 
 Cairo University  
 Faculty of Computers and Artificial Intelligence  
-Machine Learning Course   
-
-# Machine Learning (Spring 2024)
+Machine Learning Course (Spring 2024)  
 
 ## Project Summary
 
