@@ -31,7 +31,7 @@
 
 Cairo University  
 Faculty of Computers and Artificial Intelligence  
-Machine Learning Course  
+Machine Learning Course (Spring 2024) 
 
 ### Assignment 1: Linear and Logistic Regression
 
