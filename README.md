@@ -25,7 +25,7 @@
 
 Cairo University  
 Faculty of Computers and Artificial Intelligence  
-Machine Learning Course  
+Machine Learning Course (Spring 2024)
 
 ### Dataset Description
 
