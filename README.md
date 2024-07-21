@@ -17,7 +17,6 @@
     </tr>
     <tr>
       <td align="center"><strong>Delivered To</strong>: DR. Hanaa Mobarez</td>
-      <td align="center"><strong>Delivered To</strong>: TA. Abdalrahman Roshdi</td>
     </tr>
     <tr>
       <td align="center"><strong>Delivered To</strong>: TA. Abdalrahman Roshdi</td>
