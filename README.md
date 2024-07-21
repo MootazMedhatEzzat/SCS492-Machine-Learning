@@ -3,7 +3,7 @@
 <div align="center">
   <table width="100%">
     <tr>
-      <td colspan="2" align="center"><strong>{ Assignment 1: Linear and Logistic Regression }</strong></td>
+      <td colspan="2" align="center"><strong>{ Assignment 2: Decision Trees and KNN }</strong></td>
     </tr>
     <tr>
       <td align="left"><strong>Name</strong>: Mootaz Medhat Ezzat Abdelwahab</td>
