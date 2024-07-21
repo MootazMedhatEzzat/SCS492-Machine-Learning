@@ -1,4 +1,4 @@
-# SCS492-Selected Topics in Software Engineering-2-[Machine-Learning]
+# SCS492-Selected-Topics-in-Software-Engineering-2
 
 ---
 
@@ -16,7 +16,7 @@
       <td align="right"><strong>Group</strong>: B (S5)</td>
     </tr>
     <tr>
-      <td colspan="2" align="center"><strong>Delivered To</strong>: DR. Hanaa Mobarez</td>
+      <td colspan="2" align="center"><strong>Delivered To</strong>: DR. Hanaa Mobarez>
       <td colspan="2" align="center"><strong>Delivered To</strong>: TA. Abdalrahman Roshdi</td>
     </tr>
   </table>
