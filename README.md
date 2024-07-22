@@ -115,12 +115,10 @@ You are required to submit ONE zip file containing the following:
 - Your code (.py) file. If you have a (.ipynb) file, you have to save/download it as (.py) before submitting.
 - A report (.pdf) containing the team members' names and IDs, and the code with screenshots of the output of each part. If you have a (.ipynb) file, you can just convert it to pdf.
 
-The zip file must follow this naming convention: ID1_ID2_ID3_ID4_ID5_Group
+The zip file must follow this naming convention: STUDENT-ID_Group
 
 ### Submission Remarks
 
-- The maximum number of students in a team is 5 and the minimum is 4.
-- Team members must be from the same lab (or have the same TA).
 - No late submission is allowed.
 - A penalty will be imposed for violating any of the assignment rules.
 - Cheaters will get ZERO and no excuses will be accepted.
