@@ -66,10 +66,7 @@ Use the Banknote Authentication data to implement your own simple KNN classifier
 1. Deadline: 07 May 2023 @11:59 PM
 2. No late submission is allowed.
 3. Deliver your code as “.py” files not notebook extensions.
-4. Name your zipped folder that contains [problem1.py and problem2.py] as follows: ID1_ID2_ID3_ID4_ID5.zip. You will lose 0.5 mark from the assignment grade if you did not follow the correct naming convention.
-5. Team members are Max: 5.
-6. Team members can be from different labs (but they must all attend the discussion together). If anyone did not attend the discussion, they will receive zero in the assignment. You should understand every point in your code.
-7. ONLY one member should upload the zipped folder to avoid multiple submissions for the same team.
+4. Name your zipped folder that contains [problem1.py and problem2.py] as follows: STUDENT-ID.zip. You will lose 0.5 mark from the assignment grade if you did not follow the correct naming convention.
 8. We will run a plagiarism tool to check for any cheating. Cheaters will receive zero in the assignment and no excuses will be accepted.
 
 ### Grading Criteria
