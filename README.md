@@ -61,7 +61,7 @@ Use the Banknote Authentication data to implement your own simple KNN classifier
    - The total number of instances in the test set.  
    - The accuracy.
 
-### ⚠️ Submission Rules
+### 📤 Submission Rules
 
 1. **⏰ Deadline:** 07 May 2023 @11:59 PM
 2. No late submission is allowed.
