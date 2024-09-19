@@ -21,17 +21,17 @@
 
 ---
 
-## Assignment 2
+## Assignment 2: Decision Trees & K-Nearest Neighbor
 
 Cairo University  
 Faculty of Computers and Artificial Intelligence  
 Machine Learning Course (Spring 2024)
 
-### Dataset Description
+### 📊 Dataset Description
 
 Whenever you go to the bank to deposit some cash money, the cashier places banknotes in a machine that tells whether a banknote is real or not. In the "BankNote_Authentication.csv" you have four features: variance, skew, curtosis, and entropy. The class attribute refers to whether or not the banknote is real or forged.
 
-### Problem 1: Decision Trees using Scikit-learn
+### 🌳 Problem 1️⃣: Decision Trees (DT) using Scikit-learn
 
 Use the Banknote Authentication data attached with the assignment to implement the following requirements:
 
@@ -45,9 +45,9 @@ Use the Banknote Authentication data attached with the assignment to implement t
    c. Print the mean, max, and min tree size for each split ratio.  
    d. Draw two plots: 1) shows mean accuracy against training set size and 2) the mean number of nodes in the final tree against training set size.
 
-Note: The size of the tree is the number of its nodes.
+> 📝 *Note: The size of the tree is the number of its nodes.*
 
-### Problem 2: KNN
+### Problem 2️⃣: K-Nearest Neighbor (KNN)
 
 Use the Banknote Authentication data to implement your own simple KNN classifier using Python (don’t use any built-in functions):
 
@@ -61,26 +61,63 @@ Use the Banknote Authentication data to implement your own simple KNN classifier
    - The total number of instances in the test set.  
    - The accuracy.
 
-### Submission Rules
+### ⚠️ Submission Rules
 
-1. Deadline: 07 May 2023 @11:59 PM
+1. **⏰ Deadline:** 07 May 2023 @11:59 PM
 2. No late submission is allowed.
 3. Deliver your code as “.py” files not notebook extensions.
 4. Name your zipped folder that contains [problem1.py and problem2.py] as follows: STUDENT-ID.zip. You will lose 0.5 mark from the assignment grade if you did not follow the correct naming convention.
 8. We will run a plagiarism tool to check for any cheating. Cheaters will receive zero in the assignment and no excuses will be accepted.
 
-### Grading Criteria
+### 🏅 Grading Criteria ( Total is **18 marks** will be scaled to 6 marks)
 
-#### Problem 1 [DT]
+#### 🌳 Problem 1️⃣ [DT]
 
-- Experiment with Fixed Training Set size: 2 marks
-- Experiment with a range of train_test split ratio: 4 marks
-- Plotting: 2 marks
+- Experiment with Fixed Training Set size: **2 marks**
+- Experiment with a range of train_test split ratio: **4 marks**
+- Plotting: **2 marks**
 
-#### Problem 2 [KNN]
+#### Problem 2️⃣ [KNN]
 
-- KNN algorithm (+ handling tie case): 4 marks
-- Normalization + Euclidean distance calculation: 4 marks
-- Experiment with different k values and print summary info as required: 2 marks
+- KNN algorithm (+ handling tie case): **4 marks**
+- Normalization + Euclidean distance calculation: **4 marks**
+- Experiment with different k values and print summary info as required: **2 marks**
 
-Total: 18 marks (will be scaled to 6 marks)
+### 🛠️ Programming Language and Development Tools Used
+
+<table align="center" border="1" cellpadding="10">
+  <thead>
+    <tr>
+      <th>Programming Language</th>
+      <th>Development Tool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/7381df13-3be4-417d-992d-cc0c039baa44" title="Code::Blocks" alt="Code::Blocks" width="40" height="40"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        Python
+      </td>
+      <td align="center">
+        PyCharm IDE
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## 💬 Let's Connect
+Feel free to reach out to me if you'd like to collaborate on a project or discuss technology! As a Software Engineer, I'm always open to tackling new challenges, sharing knowledge, and growing through collaborative opportunities.
+
+**Mootaz Medhat Ezzat Abdelwahab**  
+🎓 Software Engineering Graduate | Faculty of Computers and Artificial Intelligence, Cairo University  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mootaz-medhat-ezzat-abdelwahab-377a60244)
