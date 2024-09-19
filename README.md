@@ -83,6 +83,8 @@ Use the Banknote Authentication data to implement your own simple KNN classifier
 - Normalization + Euclidean distance calculation: **4 marks**
 - Experiment with different k values and print summary info as required: **2 marks**
 
+---
+
 ### 🛠️ Programming Language and Development Tools Used
 
 <table align="center" border="1" cellpadding="10">
