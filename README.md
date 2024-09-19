@@ -131,6 +131,8 @@ Both the code and the report must include:
 - 🎯 **Accuracy**: 2 marks
 - 🆕 **New predictions**: 2 marks
 
+---
+
 ### 🛠️ Programming Language and Development Tools Used
 
 <table align="center" border="1" cellpadding="10">
